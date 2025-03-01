@@ -33,12 +33,13 @@
     #img-sec {
         
         border: 2px solid black;
-        padding:  0 15px ;
+        padding:  0 10px ;
         border-radius: 10px;
         margin: 10px;
-        object-fit: cover;
-        height: 50px;
-        width: 70px;
+        object-fit: contain;
+        height: 60px;
+        width: 50px;
+        cursor: pointer;
 
     }
 </style>
@@ -48,13 +49,17 @@
         <div class="box-1">
             <img src="1.jpg" alt="" id="img-main">
             <div class="box">
-                <img src="2.jpg" alt="" id="img-sec">
-                <img src="3.jpg" alt="" id="img-sec">
-                <img src="4.jpg" alt="" id="img-sec">
-                <img src="5.jpg" alt="" id="img-sec">
+                <img src="1.jpg" alt="" id="img-sec" onclick="imageChange('1')">
+                <img src="2.jpg" alt="" id="img-sec" onclick="imageChange('2')">
+                <img src="3.jpg" alt="" id="img-sec"onclick="imageChange('3')">
+                <img src="4.jpg" alt="" id="img-sec"onclick="imageChange('4')">
+                <img src="5.jpg" alt="" id="img-sec"onclick="imageChange('5')">
             </div>
         </div>
     </div>
+    <script>
+      
+    </script>
 </body>
 
 </html>
